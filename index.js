@@ -28,13 +28,14 @@ function getBestPrice(wingsList) {
 
   for (let element of chunkedArr) {
     //go through and divide the price by number of wings
-
-    let unitPrice = element[1] / element[0].slice(0, 2);
+    let price = element[1];
+    let numberOfWings = element[0].slice(0, 2);
+    let unitPrice = price / numberOfWings;
 
     if (unitPrice < lowestUnitPrice) {
       //if you find a lower amount, up date it
       lowestUnitPrice = unitPrice.toFixed(2);
-      wingAmount = element[0].slice(0, 2);
+      wingAmount = numberOfWings;
     }
   }
 
