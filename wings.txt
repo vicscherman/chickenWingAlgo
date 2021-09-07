@@ -1,0 +1,80 @@
+4 Chicken Wings
+4.55
+5 Chicken Wings
+5.70
+6 Chicken Wings
+6.80
+7 Chicken Wings
+7.95
+8 Chicken Wings
+9.10
+9 Chicken Wings 
+10.20
+10 Chicken Wings 
+11.35
+11 Chicken Wings 
+12.50
+12 Chicken Wings
+13.60
+13 Chicken Wings 
+14.75
+14 Chicken Wings 
+15.90
+15 Chicken Wings
+17.00
+16 Chicken Wings
+18.15
+17 Chicken Wings
+19.30
+18 Chicken Wings
+20.40
+19 Chicken Wings
+21.55
+20 Chicken Wings 
+22.70
+21 Chicken Wings
+23.80
+22 Chicken Wings 
+24.95
+23 Chicken Wings
+26.10
+24 Chicken Wings 
+27.25
+25 Chicken Wings 
+27.80
+26 Chicken Wings 
+28.95
+27 Chicken Wings 
+30.10
+28 Chicken Wings 
+31.20
+29 Chicken Wings 
+32.35
+30 Chicken Wings 
+33.50
+35 Chicken Wings 
+39.15
+40 Chicken Wings
+44.80
+45 Chicken Wings 
+50.50
+50 Chicken Wings
+55.60
+60 Chicken Wings 
+67.00
+70 Chicken Wings 
+78.30
+75 Chicken Wings 
+83.45
+80 Chicken Wings 
+89.10
+90 Chicken Wings 
+100.45
+100 Chicken Wings 
+111.25
+125 Chicken Wings 
+139.00
+150 Chicken Wings 
+166.85
+200 Chicken Wings 
+222.50
