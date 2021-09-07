@@ -21,15 +21,15 @@ function getBestPrice(wingsList) {
   }
   //after this it'll be like [[4chicken wings, 4.55], [5 chicken wings, 5.7]......]
 
-  //initializing the lowest amount of wings to buy. This will get updated later but starts as the first item in our list(with all the extra words like chicken wings stripped off)
-  let wingAmount = chunkedArr[0][0].slice(0, 2);
+  //initializing the lowest amount of wings to buy. This will get updated later but starts as the first item in our list(with all the extra words like chicken wings stripped off with a regex)
+  let wingAmount = chunkedArr[0][0].replace(/[^0-9]+/,'');
   //initialize what our lowest price is(first price to start)
   let lowestUnitPrice = chunkedArr[0][1] / wingAmount;
 
   for (let element of chunkedArr) {
     //go through and divide the price by number of wings
     let price = element[1];
-    let numberOfWings = element[0].slice(0, 2);
+    let numberOfWings = element[0].replace(/[^0-9]+/,'');
     let unitPrice = price / numberOfWings;
 
     if (unitPrice < lowestUnitPrice) {
